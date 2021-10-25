@@ -19,10 +19,14 @@ const bici = [
         nome: 'Canondale',
         peso: '4'
     }
+
 ]
 
 
-const peso = document.querySelector( "peso")
+
+console.log(bici);
+
+const peso = document.querySelector([0], ".peso")
 console.log("peso");
 
 

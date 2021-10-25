@@ -46,7 +46,7 @@ for (let i = 0; i < bicycles.length; i++) {
 
 
 
- const squadre = [
+ const teams = [
     {
         nome: 'Inter',
         punti: 0,
@@ -72,4 +72,15 @@ for (let i = 0; i < bicycles.length; i++) {
     },
 ]
 
-console.log(squadre);
+console.log(teams);
+
+
+// Generare numeri random al posto degi 0 nelle proprietà: punti fatti e falli subiti
+
+
+// generare numeri random  tra un minimo e un massimo di 10
+
+const punti = Math.floor(Math.random() * 11);
+console.log(punti);
+
+// pushare il valore ottenuto all'interno di punti e falli

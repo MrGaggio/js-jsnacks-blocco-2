@@ -80,7 +80,7 @@ for (let i = 0; i < bicycles.length; i++) {
 
 // generare numeri random  tra un minimo e un massimo di 10
 
-
+/*
 const punti = Math.floor(Math.random() * 11);
 teams[0].punti.push.(Math.floor(Math.random() * 11);
 
@@ -90,3 +90,12 @@ const falli = Math.floor(Math.random() * 11);
 
 // pushare il valore ottenuto all'interno di punti e falli
 
+*/
+
+for (let i = 0; i < teams.length; i++) {
+    const team = teams[i];
+    team.punti = Math.floor(Math.random() * 11);
+    team.falli = Math.floor(Math.random() * 11);
+}
+
+console.log(teams);

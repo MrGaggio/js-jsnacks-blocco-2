@@ -80,7 +80,14 @@ console.log(teams);
 
 // generare numeri random  tra un minimo e un massimo di 10
 
+
 const punti = Math.floor(Math.random() * 11);
 console.log(punti);
 
+const falli = Math.floor(Math.random() * 11);
+console.log(punti);
 // pushare il valore ottenuto all'interno di punti e falli
+
+if (teams[0].punti == 0) {
+    
+}

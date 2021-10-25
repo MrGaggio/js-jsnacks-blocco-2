@@ -20,3 +20,9 @@ const bici = [
         peso: '4'
     }
 ]
+
+
+ console.log([0]"peso");
+
+
+ 

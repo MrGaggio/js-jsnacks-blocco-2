@@ -72,7 +72,7 @@ for (let i = 0; i < bicycles.length; i++) {
     },
 ]
 
-console.log(teams);
+
 
 
 // Generare numeri random al posto degi 0 nelle proprietà: punti fatti e falli subiti
@@ -82,12 +82,11 @@ console.log(teams);
 
 
 const punti = Math.floor(Math.random() * 11);
+teams[0].punti.push.(Math.floor(Math.random() * 11);
+
 console.log(punti);
 
 const falli = Math.floor(Math.random() * 11);
-console.log(punti);
+
 // pushare il valore ottenuto all'interno di punti e falli
 
-if (teams[0].punti == 0) {
-    
-}

@@ -71,3 +71,5 @@ for (let i = 0; i < bicycles.length; i++) {
         falli: 0
     },
 ]
+
+console.log(squadre);
